@@ -6,18 +6,18 @@ paragraph grey: #5b5e6d;
 nav grey: #5b5e6d;
 */
 
-@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans&display=swap');
 body {
     padding: 0;
     margin: 0;
-    font-family: 'Times New Roman', sans-serif;
+    max-width: 100%;
 }
 
 nav {
-    display: flex;
-    justify-content: space-between;
     align-items: center;
     border-bottom: 2px solid #eee;
+    display: flex;
+    justify-content: space-between;
     padding: 10px 0;
 }
 
@@ -33,39 +33,40 @@ nav ul {
     display: none;
 }
 
-header h1 {
-    font-weight: 600;
-    color: #2C303F;
-}
-
 header {
     display: flex;
     flex-wrap: wrap;
-    padding: 5px 30px;
     justify-content: center;
+    padding: 5px 30px;
 }
 
 header img {
     order: 4;
 }
 
+header h1 {
+    color: #2C303F;
+    font-family: 'Times New Roman', sans-serif;
+    font-weight: 600;
+}
+
 p {
     color: #5b5e6d;
-    font-family: Slack-Circular-Pro, "Helvetica Neue", Helvetica, "Segoe UI", Tahoma, Arial, sans-serif;
+    font-family: 'Noto Sans', sans-serif;
     margin-top: 0px;
 }
 
 input {
     background: white;
-    padding: 15px;
     border: 1px solid rgb(214, 213, 214);
     border-radius: 4px;
+    color: rgb(37, 37, 37);
     font-size: 14px;
     font-weight: 500;
-    font-family: Slack-Circular-Pro, "Helvetica Neue", Helvetica, "Segoe UI", Tahoma, Arial, sans-serif;
-    color: rgb(37, 37, 37);
-    margin-top: 10px;
+    font-family: 'Noto Sans', sans-serif;
+    margin-top: 20px;
     margin-bottom: 20px;
+    padding: 15px;
 }
 
 header .link {
@@ -79,9 +80,9 @@ header button {
     border-radius: 4px;
     color: white;
     font-weight: 500;
+    font-family: 'Noto Sans', sans-serif;
     padding: 15px;
     text-align: center;
-    font-family: Slack-Circular-Pro, "Helvetica Neue", Helvetica, "Segoe UI", Tahoma, Arial, sans-serif;
 }
 
 @media (max-width: 780px) {
@@ -89,8 +90,8 @@ header button {
         width: 70px;
     }
     nav svg {
-        width: 18px;
         height: 18px;
+        width: 18px;
     }
     header h1 {
         font-size: 34px;
@@ -103,7 +104,6 @@ header button {
     }
     header button {
         font-size: 12px;
-        text-align: center;
         width: 100%;
     }
 }

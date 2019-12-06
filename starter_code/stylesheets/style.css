@@ -7,26 +7,28 @@ nav grey: #5b5e6d;
 */
 
 @import url('https://fonts.googleapis.com/css?family=Noto+Sans&display=swap');
-body {
-    padding: 0;
+* {
     margin: 0;
-    max-width: 100%;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    overflow-x: hidden;
+    font-family: 'Noto Sans', sans-serif;
 }
 
 nav {
     align-items: center;
+    background: #fff;
     border-bottom: 2px solid #eee;
     display: flex;
     justify-content: space-between;
-    padding: 10px 0;
-}
-
-nav img {
-    margin-left: 20px;
-}
-
-nav svg {
-    margin-right: 20px;
+    padding: 10px 20px;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
 }
 
 nav ul {
@@ -37,7 +39,7 @@ header {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    padding: 5px 30px;
+    padding: 80px 30px 10px 30px;
 }
 
 header img {
@@ -52,7 +54,6 @@ header h1 {
 
 p {
     color: #5b5e6d;
-    font-family: 'Noto Sans', sans-serif;
     margin-top: 0px;
 }
 
@@ -63,7 +64,6 @@ input {
     color: rgb(37, 37, 37);
     font-size: 14px;
     font-weight: 500;
-    font-family: 'Noto Sans', sans-serif;
     margin-top: 20px;
     margin-bottom: 20px;
     padding: 15px;
@@ -80,9 +80,25 @@ header button {
     border-radius: 4px;
     color: white;
     font-weight: 500;
-    font-family: 'Noto Sans', sans-serif;
     padding: 15px;
     text-align: center;
+}
+
+main {
+    background: #F4F3F4;
+}
+
+main div {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+main div h2 {
+    color: #2C303F;
+    font-family: 'Times New Roman', sans-serif;
+    font-weight: 600;
 }
 
 @media (max-width: 780px) {
@@ -99,11 +115,21 @@ header button {
     header p {
         font-size: 16px;
     }
-    input {
+    header input {
         width: 100%;
     }
     header button {
         font-size: 12px;
         width: 100%;
+    }
+    header img {
+        width: 100%;
+        padding-left: 15%;
+        padding-right: 15%;
+        text-align: center;
+    }
+    main div h2 {
+        width: 100%;
+        font-size: 25px;
     }
 }

@@ -98,6 +98,10 @@ main .cont-1 {
     background: #F4F3F4;
 }
 
+main .cont-2 {
+    border: 1px solid #eee;
+}
+
 main .cont-1 h2 {
     color: #2C303F;
     font-family: 'Times New Roman', sans-serif;
@@ -130,6 +134,39 @@ main .cont-2 .p-1{
 
 main .cont-2 button{
     margin-top: 5px;
+}
+
+footer .cont-3 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 10% 10% 10% 10%;
+    flex-wrap: wrap;
+}
+
+footer .cont-3 ul li:first-child {
+  color: #2C303F;
+  font-weight: 600;
+}
+
+footer .cont-4 {
+    background: #F4F3F4;
+    width: 100%;
+    padding: 5% 10% 10% 10%;
+}
+
+footer .cont-4 div{
+    width: 100%;
+    padding-right: 20%;
+    padding-left: 20%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+ul li{
+    list-style: none;
 }
 
 @media (max-width: 780px) {
@@ -185,5 +222,36 @@ main .cont-2 button{
     }
     main .cont-2 .p-2{
         font-size: 14px;
+    }
+
+    footer .cont-3 img{
+        width: 100%;
+        padding-right: 80%;
+    }
+
+    footer ul{
+        width: 50%;
+        padding: 5%;
+    }
+
+    footer .cont-3 ul li {
+      font-size: 14px;
+      padding: 2%;
+    }
+
+    footer .cont-4 ul {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    footer .cont-4 img{
+        width: 50px;
+    }
+
+    footer .cont-4 div i{
+        padding-left: 5%;
+        padding-right: 5%;
+        padding-top: 10px;
     }
 }

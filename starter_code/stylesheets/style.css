@@ -54,7 +54,7 @@ header img {
     order: 4;
 }
 
-header h1 {
+header div h1 {
     color: #2C303F;
     font-family: 'Times New Roman', sans-serif;
     font-weight: 600;
@@ -78,12 +78,12 @@ input {
     padding: 15px;
 }
 
-header .link {
+header div .link {
     font-size: 11px;
     padding-bottom: 10px;
 }
 
-header button,
+header div button,
 main .cont-2 button {
     background: #192592;
     border: none;
@@ -193,21 +193,25 @@ main .cont-1 button {
     header {
         justify-content: center;
     }
-    header p {
+    header div p {
         font-size: 16px;
     }
-    header .link {
+    header  div .link {
         padding: 10px 10%;
+        text-align: center;
+    }
+    main .cont-1{
+        text-align: center;
     }
     main .cont-2 {
         padding: 10% 10% 10% 10%;
         text-align: center;
     }
-    header input,
+    header div input,
     main .cont-2 input {
         width: 100%;
     }
-    header button,
+    header div button,
     main .cont-2 button {
         font-size: 12px;
         width: 100%;
@@ -273,16 +277,16 @@ main .cont-1 button {
 
 @media (min-width: 767px) and (max-width: 961px) {
     /* ------- */
-    header p {
+    header div p {
         font-size: 16px;
     }
     /* ------- */
-    header input {
+    header div input {
         width: 49%;
         margin-right: 1%;
     }
     /* ------- */
-    header button {
+    header div button {
         font-size: 12px;
         width: 30%;
         margin-right: 20%;
@@ -395,16 +399,16 @@ main .cont-1 button {
 }
 @media (min-width: 962px) and (max-width: 1024px) {
       /* ------- */
-      header p {
+      header div p {
         font-size: 16px;
     }
     /* ------- */
-    header input {
+    header div input {
         width: 49%;
         margin-right: 1%;
     }
     /* ------- */
-    header button {
+    header div button {
         font-size: 12px;
         width: 30%;
         margin-right: 20%;
@@ -515,6 +519,9 @@ main .cont-1 button {
 }
 
 @media (min-width: 1200px) {
+    .header-2{
+        width: 38%;
+    }
     nav ul {
         display: flex;
         flex-direction: row;
@@ -535,19 +542,18 @@ main .cont-1 button {
         display: flex;
         flex-wrap: wrap;
         padding: 80px 30px 10px 30px;
-        flex-direction: column;
     }
-    header p {
+    header div p {
       font-size: 16px;
       display: flex;
   }
   /* ------- */
-  header input {
+  header div input {
       width: 49%;
       margin-right: 1%;
   }
   /* ------- */
-  header button {
+  header div button {
       font-size: 12px;
       width: 30%;
       margin-right: 20%;
@@ -562,8 +568,14 @@ main .cont-1 button {
     text-align: center;
     order:0;
   }
-  header input{
+  header div input{
       display:none;
+  }
+  header div h1{
+    color: #2C303F;
+    font-family: 'Times New Roman', sans-serif;
+    font-weight: 600;
+    font-size: 78px;
   }
   main .cont-1 h2 {
       width: 100%;

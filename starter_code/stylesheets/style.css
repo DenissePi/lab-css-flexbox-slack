@@ -183,6 +183,12 @@ footer .cont-4 div img {
     width: 6%;
 }
 
+main .cont-1 button {
+    border: 1px solid #192592;
+    color: #192592;
+    font-weight: 600;    
+}
+
 @media (max-width: 780px) {
     header {
         justify-content: center;
@@ -386,4 +392,271 @@ footer .cont-4 div img {
     footer .cont-4 div i:last-child {
         padding-right: 0;
     }
+}
+@media (min-width: 962px) and (max-width: 1024px) {
+      /* ------- */
+      header p {
+        font-size: 16px;
+    }
+    /* ------- */
+    header input {
+        width: 49%;
+        margin-right: 1%;
+    }
+    /* ------- */
+    header button {
+        font-size: 12px;
+        width: 30%;
+        margin-right: 20%;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    /* ------- */
+    header img {
+        width: 100%;
+        padding-left: 30%;
+        padding-right: 30%;
+        text-align: center;
+    }
+    main .cont-1 h2 {
+        width: 100%;
+        font-size: 27px;
+    }
+    main .cont-1 p {
+        width: 100%;
+        font-size: 16px;
+    }
+    /* ------- */
+    main .cont-1 img {
+        width: 33%;
+        padding: 10% 3% 0 3%
+    }
+    /* ------- */
+    main .cont-1 button {
+        width: 100%;
+        margin-left: 35%;
+        margin-right: 35%;
+        margin-top: 5%;
+    }
+    main .cont-2 {
+        padding: 10% 2% 10% 2%;
+    }
+    main .cont-2 .p-1 {
+        font-size: 30px;
+        width: 50%;
+        position: absolute;
+        left: 7%;
+    }
+    main .cont-2 .p-2 {
+        font-size: 14px;
+        width: 50%;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        position: relative;
+        left: 1%;
+        top: 25px;
+    }
+    main .cont-2 input {
+        font-size: 14px;
+        width: 20%;
+        margin-right: 1%;
+        padding: 25px 15px;
+    }
+    main .cont-2 button {
+        font-size: 14px;
+        width: 20%;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        padding: 25px 15px;
+    }
+    /* ------- */
+    footer .cont-3 {
+        align-items: flex-start;
+    }
+    footer .cont-3 img {
+        width: 20%;
+        padding-right: 5%;
+    }
+    /* ------- */
+    footer ul {
+        width: 20%;
+    }
+    footer .cont-3 ul li {
+        font-size: 14px;
+        padding: 2%;
+    }
+    footer .cont-4 {
+        padding: 5%;
+        justify-content: space-between;
+        display: flex;
+        align-items: center;
+    }
+    footer .cont-4 ul {
+        width: 35%;
+        display: flex;
+        justify-content: space-between;
+    }
+    footer .cont-4 div {
+        width: 35%;
+        padding-right: 0;
+        padding-left: 0;
+    }
+    footer .cont-4 div img {
+        width: 10%;
+        margin-right: 10px;
+    }
+    footer .cont-4 div i {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    footer .cont-4 div i:last-child {
+        padding-right: 0;
+    }
+}
+
+@media (min-width: 1200px) {
+    nav ul {
+        display: flex;
+        flex-direction: row;
+    }
+    nav ul li{
+        padding: 6px 10px;
+        font-size: 14px;;
+    }
+    nav ul li:last-child{
+        border: 1px solid black;
+        border-radius: 4px;
+    }
+    svg{
+        display:none;
+    }
+    /* ------- */
+    header{
+        display: flex;
+        flex-wrap: wrap;
+        padding: 80px 30px 10px 30px;
+        flex-direction: column;
+    }
+    header p {
+      font-size: 16px;
+      display: flex;
+  }
+  /* ------- */
+  header input {
+      width: 49%;
+      margin-right: 1%;
+  }
+  /* ------- */
+  header button {
+      font-size: 12px;
+      width: 30%;
+      margin-right: 20%;
+      margin-top: 20px;
+      margin-bottom: 20px;
+  }
+  /* ------- */
+  header img {
+    width: 50%;
+    padding-left: 0%;
+    padding-right: 5%;
+    text-align: center;
+    order:0;
+  }
+  header input{
+      display:none;
+  }
+  main .cont-1 h2 {
+      width: 100%;
+      font-size: 27px;
+  }
+  main .cont-1 p {
+      width: 100%;
+      font-size: 16px;
+  }
+  /* ------- */
+  main .cont-1 img {
+      width: 33%;
+      padding: 10% 3% 0 3%
+  }
+  /* ------- */
+  main .cont-1 button {
+      width: 100%;
+      margin-left: 35%;
+      margin-right: 35%;
+      margin-top: 5%;
+  }
+  main .cont-2 {
+      padding: 10% 2% 10% 2%;
+  }
+  main .cont-2 .p-1 {
+      font-size: 30px;
+      width: 50%;
+      position: absolute;
+      left: 7%;
+  }
+  main .cont-2 .p-2 {
+      font-size: 14px;
+      width: 50%;
+      margin-top: 20px;
+      margin-bottom: 20px;
+      position: relative;
+      left: 1%;
+      top: 25px;
+  }
+  main .cont-2 input {
+      font-size: 14px;
+      width: 20%;
+      margin-right: 1%;
+      padding: 25px 15px;
+  }
+  main .cont-2 button {
+      font-size: 14px;
+      width: 20%;
+      margin-top: 20px;
+      margin-bottom: 20px;
+      padding: 25px 15px;
+  }
+  /* ------- */
+  footer .cont-3 {
+      align-items: flex-start;
+  }
+  footer .cont-3 img {
+      width: 20%;
+      padding-right: 5%;
+  }
+  /* ------- */
+  footer ul {
+      width: 20%;
+  }
+  footer .cont-3 ul li {
+      font-size: 14px;
+      padding: 2%;
+  }
+  footer .cont-4 {
+      padding: 5%;
+      justify-content: space-between;
+      display: flex;
+      align-items: center;
+  }
+  footer .cont-4 ul {
+      width: 35%;
+      display: flex;
+      justify-content: space-between;
+  }
+  footer .cont-4 div {
+      width: 35%;
+      padding-right: 0;
+      padding-left: 0;
+  }
+  footer .cont-4 div img {
+      width: 10%;
+      margin-right: 10px;
+  }
+  footer .cont-4 div i {
+      padding-left: 5%;
+      padding-right: 5%;
+  }
+  footer .cont-4 div i:last-child {
+      padding-right: 0;
+  }
 }
